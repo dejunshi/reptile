@@ -1,5 +1,5 @@
 #爬取80s网站电影，并调用迅雷下载
-#后台需要搭建一个redis数据库
+#后台需要搭建一个redis数据库作网址缓存，避免爬取重复的网址
 import urllib.request
 import os,re
 import redis
